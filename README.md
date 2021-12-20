@@ -22,4 +22,4 @@ And to run the code:
 
  `python logo.py`
 
-Enjoy.
+And just follow the on-screen prompts.

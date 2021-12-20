@@ -10,7 +10,7 @@ os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 
 
 ASCII_CHARS = ["@", "#", "S", "%", "?",
-               "*", "+", ";", ":", ",", "/", "|", "\\", "R", "T", "U", "I", "T", "L", "A", "B"]
+               "*", "+", ";", ":", ",", "/", "|",  "\\", "R", "T", "U", "I", "T", "L", "A", "B"]
 frame_size = 150
 frame_interval = 1.0 / 30.75
 
@@ -146,9 +146,26 @@ def main():
     while True:
         sys.stdout.write(
             '==============================================================\n')
-        sys.stdout.write('Loading...')
-        total_frames = preflight_operations(
-            "logo.mp4")
+
+        total_frames = ""
+        user_answer = ""
+        while user_answer != "1" or user_answer != "2" or user_answer == "":
+            print("Choose what you want to run (1 or 2):")
+            print("    1. Inverted logo")
+            print("    2. Usual logo")
+            user_answer = input()
+            sys.stdout.write('Loading...')
+            if user_answer in ["1", ""]:
+                total_frames = preflight_operations(
+                    "logo-invert.mp4")
+                break
+            elif user_answer == "2":
+                total_frames = preflight_operations(
+                    "logo.mp4")
+                break
+            else:
+                print("Error input!")
+
         play_video(total_frames=total_frames)
 
 
