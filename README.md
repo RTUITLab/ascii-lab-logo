@@ -12,7 +12,7 @@ You can either `git clone` or download a ZIP of this repository.
 
 Then, ensure that you set your terminal to the directory of this repository.
 
- `cd bad-apple`
+ `cd ascii-lab-logo`
 
 Install the necessary dependencies and packages by using:
 
