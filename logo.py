@@ -10,7 +10,7 @@ os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 
 
 ASCII_CHARS = ["@", "#", "S", "%", "?",
-               "*", "+", ";", ":", ",", "/", "|",  "\\", "R", "T", "U", "I", "T", "L", "A", "B"]
+               "*", "+", ";", ":", ",", ".", "/", "|",  "\\", "R", "T", "U", "I", "T", "L", "A", "B"]
 frame_size = 150
 frame_interval = 1.0 / 30.75
 
