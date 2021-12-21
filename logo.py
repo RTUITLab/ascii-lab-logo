@@ -151,14 +151,14 @@ def main():
         user_answer = ""
         while user_answer != "1" or user_answer != "2" or user_answer == "":
             print("Choose what you want to run (1 or 2):")
-            print("    1. Inverted logo")
+            print("    1. Reverse logo")
             print("    2. Usual logo")
             print("    3. Matrix logo")
             user_answer = input()
             sys.stdout.write('Loading...')
             if user_answer in ["1", ""]:
                 total_frames = preflight_operations(
-                    "logo-invert.mp4")
+                    "logo-reversed.mp4")
                 break
             elif user_answer == "2":
                 total_frames = preflight_operations(

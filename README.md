@@ -2,8 +2,6 @@
 
  RTUITLab-logo printed out on the console with Python!
 
-![Bad apple!!](logo-example.gif)
-
 # Running this code/Pre-requisites
 
 You can either `git clone` or download a ZIP of this repository.
@@ -23,3 +21,17 @@ And to run the code:
  `python logo.py`
 
 And just follow the on-screen prompts.
+
+## Examples
+
+### Usual Logo
+
+![logo](assets/logo-example.gif)
+
+### Reverse Logo
+
+![logo](assets/logo-reversed-example.gif)
+
+### Matrix Logo
+
+![logo](assets/logo-matrix-example.gif)
