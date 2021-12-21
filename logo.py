@@ -158,15 +158,15 @@ def main():
             sys.stdout.write('Loading...')
             if user_answer in ["1", ""]:
                 total_frames = preflight_operations(
-                    "logo-reversed.mp4")
+                    "videos/logo-reversed.mp4")
                 break
             elif user_answer == "2":
                 total_frames = preflight_operations(
-                    "logo.mp4")
+                    "videos/logo.mp4")
                 break
             elif user_answer == "3":
                 total_frames = preflight_operations(
-                    "logo-matrix.mp4")
+                    "videos/logo-matrix.mp4")
                 break
             else:
                 print("Error input!")
