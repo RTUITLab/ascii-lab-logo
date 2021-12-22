@@ -149,8 +149,8 @@ def main():
 
         total_frames = ""
         user_answer = ""
-        while user_answer != "1" or user_answer != "2" or user_answer == "":
-            print("Choose what you want to run (1 or 2):")
+        while user_answer != "" or user_answer != "1" or user_answer != "2" or user_answer != "3":
+            print("Choose what you want to run:")
             print("    1. Reverse logo")
             print("    2. Usual logo")
             print("    3. Matrix logo")
